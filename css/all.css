@@ -1,0 +1,172 @@
+/* 
+    Document   : all
+    Created on : 2014-5-20, 23:11:18
+    Author     : richar.wang
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+    color:#4D4D4D;
+}
+
+div{
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#4D4D4D;
+}
+
+a:active{
+    color:#4D4D4D;
+}
+
+a:hover{
+    color:red;
+}
+
+body{
+    font-size: 12px;
+    color:initial;
+}
+
+.red{
+    color:red;
+}
+
+.header{
+    height: 15px;
+    width: 100%;
+    background-color: #2D7ECA;
+    color:#ccc!important;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .title{
+    padding-left: 5px;
+}
+
+.header a,.header a:active{
+    color:#ccc!important;
+}
+
+.header a:hover{
+    color:red;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;    
+}
+
+.main{
+    width:950px;
+    margin: 0px auto;
+}
+
+.mainleft{
+    width: 120px;
+    margin-right: 20px;
+    float: left;
+    display: inline;
+}
+
+.leftmenu{
+    border: 2px #CCCCCC solid;
+    padding: 5px;
+    width:120px;
+    min-height: 480px;
+}
+
+.leftmenu h3{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.leftmenu ul{
+    padding: 5px 5px 5px 5px;
+    margin: 0px;
+}
+
+.leftmenu li{
+    list-style: none;
+    line-height: 18px;
+}
+
+.leftmenu a,.leftmenu a:active{
+    color:#2D7ECA;
+}
+
+.mainright{
+    width: 810px;
+    float: left;
+    display: inline;
+}
+
+.list{
+    border: 4px solid #CCCCCC;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+.list tr{
+    height: 24px;
+}
+
+.list th{
+    border-left-color: #F5F5F5;
+    border-right-color: #F5F5F5;
+}
+
+.list td,.list th{
+    font-size:12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #F5F5F5;
+    border-bottom-width: 1px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.footer{
+    clear:both;
+}
